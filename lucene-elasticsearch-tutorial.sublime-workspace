@@ -3,66 +3,50 @@
 	{
 		"selected_items":
 		[
-			[
-				"ini",
-				"initializing"
-			],
-			[
-				"prot",
-				"prototype"
-			],
-			[
-				"get",
-				"getElementById"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"fl",
-				"flipOut"
-			],
-			[
-				"fil",
-				"filterNonword"
-			],
-			[
-				"spl",
-				"splice2at5"
-			],
-			[
-				"wr",
-				"writeln"
-			],
-			[
-				"supe",
-				"super_getName"
-			],
-			[
-				"aut",
-				"automemoFibo"
-			],
-			[
-				"fib",
-				"fibbo"
-			],
-			[
-				"pro",
-				"prototype"
-			],
-			[
-				"pr",
-				"profession"
-			],
-			[
-				"subl",
-				"sublime_text"
-			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/idurkan/bin/admin_test_neo4j_db.sh",
+			"settings":
+			{
+				"buffer_size": 426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/idurkan/.bash_aliases",
+			"settings":
+			{
+				"buffer_size": 2210,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "datasets/datasets/products_multi_tagged.pretty",
+			"settings":
+			{
+				"buffer_size": 3033,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "products_example_commands.txt",
+			"settings":
+			{
+				"buffer_size": 776,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twitter-example-commands.txt",
+			"settings":
+			{
+				"buffer_size": 1908,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,30 +72,70 @@
 	},
 	"file_history":
 	[
-		"/home/idurkan/training/js/ninjas/ch5-closures/whacked_memoize.html",
-		"/home/idurkan/training/js/ninjas/ch5-closures/tricky_this.html",
-		"/home/idurkan/training/js/ninjas/ch5-closures/bokusu.html",
-		"/home/idurkan/training/js/ninjas/ch2-testing/suite-with-grouping.html",
-		"/home/idurkan/training/js/ninjas/ch3-functions/constructor.html",
-		"/home/idurkan/training/js/ninjas/ch4-function-details/recursion.html",
-		"/home/idurkan/training/js/ninjas/ch4-function-details/memoization.html",
-		"/home/idurkan/training/js/ninjas/ch4-function-details/array_reuse.html",
-		"/home/idurkan/projects/java-ee-7-demo/build.gradle",
-		"/home/idurkan/training/js/ninjas/testing/simple-test-suite.html",
-		"/home/idurkan/training/js/the-good-parts/module1.js",
-		"/home/idurkan/projects/SpringMVC/src/main/webapp/WEB-INF/web.xml",
-		"/home/idurkan/projects/SpringMVC/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml",
-		"/home/idurkan/projects/spring-mvc-simple-master/build.gradle",
-		"/home/idurkan/.bashrc",
-		"/home/idurkan/projects/cineasts/src/main/resources/applicationContext.xml",
-		"/home/idurkan/projects/cineasts/build.gradle",
-		"/home/idurkan/projects/cineasts/src/main/webapp/WEB-INF/views/landing.jsp",
-		"/home/idurkan/projects/cineasts/src/main/webapp/WEB-INF/web.xml",
-		"/home/idurkan/projects/cineasts/src/main/groovy/org/neo4j/cineasts/FirstController.groovy",
-		"/home/idurkan/projects/cineasts/src/main/webapp/WEB-INF/mvcServletConfig.xml",
-		"/home/idurkan/projects/cineasts/src/main/resources/mvcServletConfig.xml",
+		"/home/idurkan/repos/lucene-elasticsearch-tutorial/datasets/datasets/products_multi_tagged.eloader",
+		"/home/idurkan/bin/big_file.rb",
+		"/home/idurkan/repos/lucene-elasticsearch-tutorial/datasets/.gitignore",
 		"/home/idurkan/.bash_aliases",
-		"/home/idurkan/projects/geb/doc/manual/manual.gradle"
+		"/home/idurkan/bin/deft_purgation.sh",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/nextcentury/deft-widgets/target/CodeNarc.xml",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/titanic-deleted-files.txt",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/test.txt",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/singers.txt",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/big_file.rb",
+		"/home/idurkan/testing/deft-samples/slavery-crackdown.txt",
+		"/home/idurkan/bin/admin_owf_neo4j_db.sh",
+		"/home/idurkan/testing/deft-samples/cnn-report.txt",
+		"/home/idurkan/testing/deft-samples/bric-aviation.txt",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/nextcentury/deft-widgets/pom.xml",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/nextcentury/pom.xml",
+		"/home/idurkan/purge_deft_database.sh",
+		"/home/idurkan/contacts.csv",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/nextcentury/deft-server/target/CodeNarc.xml",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/.gitignore",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/deft-server/target/CodeNarc.xml",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/deft-widgets/target/CodeNarc.xml",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/columbia/relation/src/main/java/edu/columbia/relation/sarcasm/util/TextUtil.java",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/deft-server/target/surefire-reports/com.ncc.deft.graph.convert.DefaultDocumentBuilderIntegrationTest.txt",
+		"/home/idurkan/gradletree.txt",
+		"/home/idurkan/mvntree.txt",
+		"/home/idurkan/.m2/settings.xml",
+		"/home/idurkan/.bashrc",
+		"/home/idurkan/repos/deft/ncc/adept/pom.xml",
+		"/home/idurkan/temp/pom.xml",
+		"/home/idurkan/temp/execing-pom.xml",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/.gitignore",
+		"/home/idurkan/that-damn-test.txt",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/that-damn-test.txt",
+		"/home/idurkan/repos/deft/ncc/adept/.gitignore",
+		"/home/idurkan/bin/mouse_setup.sh",
+		"/home/idurkan/training/java-on-aws/nuez/grails-app/conf/DataSource.groovy",
+		"/home/idurkan/temp/upload-neo-deps/neo-deps.txt",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/deps.txt",
+		"/home/idurkan/.jshintrc",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/widgets/build/jshint.out",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/depstree-widgets.txt",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/depstree.txt",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/server/tree.txt",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/nextcentury/server/src/test/groovy/com/ncc/deft/adept/AdeptApiTest.groovy",
+		"/home/idurkan/repos/deft/ncc-on-bbn/deft/nextcentury/server/src/test/groovy/com/ncc/deft/graph/convert/CoreferenceConverterTest.groovy",
+		"/home/idurkan/repos/deft/bbn/deft/error.txt",
+		"/home/idurkan/repos/deft/bbn/deft/pom.xml",
+		"/home/idurkan/training/javascript/test.html",
+		"/home/idurkan/.gitconfig",
+		"/home/idurkan/repos/neon/tools/visualizations/next-century/neon/build.gradle",
+		"/home/idurkan/app-servers/OWF-bundle-7-GA/apache-tomcat-7.0.21/lib/OzoneConfig.properties",
+		"/home/idurkan/bin/run_owf_tomcat.sh",
+		"/home/idurkan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/idurkan/app-servers/OWF-bundle-7-GA/apache-tomcat-7.0.21/lib/owf-override-log4j.xml",
+		"/home/idurkan/tools/sublime_text_2/Icon/48x48/[idurkan@idurkan-E6420]",
+		"/home/idurkan/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/idurkan/tools/sublime_text_2/Icon/48x48/[~/tools/sublime_text_2/Icon/48x48]",
+		"/home/idurkan/app-servers/OWF-bundle-7-GA/apache-tomcat-7.0.21/bin/setenv.sh",
+		"/home/idurkan/bin/cleanup_staging.sh",
+		"/home/idurkan/bin/run_deft_tomcat.sh",
+		"/home/idurkan/repos/deft/ncc/adept/nextcentury/gradle.properties",
+		"/home/idurkan/app-servers/OWF-bundle-7-GA/apache-tomcat-7.0.21/conf/server.xml",
+		"/home/idurkan/app-servers/OWF-bundle-7-GA/apache-tomcat-7.0.21/file"
 	],
 	"find":
 	{
@@ -126,17 +150,43 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"aString",
-			"ninja2.skulk",
-			"equal",
-			"c",
-			"memo",
-			"quo",
-			"manual",
-			"doc:manual"
+			"mvn",
+			"bishops",
+			"idurkan",
+			"groovy",
+			"1.8.5",
+			"pluginGroups",
+			"groovy",
+			"groovy-all",
+			"groovy",
+			"jax",
+			"xml-apis",
+			"xerces",
+			"servlet",
+			"neo4j-server",
+			"servlet",
+			"org.mortbay.jetty",
+			"2.5",
+			"javax.servlet",
+			"activation",
+			"servlet",
+			"javax.",
+			"groupId",
+			"janino",
+			"<password>deployment123</password>",
+			"<username>deployment</username>",
+			"$",
+			"neo4j-rest-graphdb",
+			"failed",
+			"FAILED",
+			"spring-context",
+			"DEFTSnapshots",
+			"user1",
+			"<username>",
+			"PATH"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -144,10 +194,9 @@
 		"regex": false,
 		"replace_history":
 		[
-			"filtered",
-			"isPalindrome",
-			"ok",
-			"memory"
+			"<password>spUsr$#2013!</password>",
+			"<username>idurkan</username>",
+			"idurkan"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -158,8 +207,143 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/idurkan/bin/admin_test_neo4j_db.sh",
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/idurkan/.bash_aliases",
+					"settings":
+					{
+						"buffer_size": 2210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								769,
+								769
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "datasets/datasets/products_multi_tagged.pretty",
+					"settings":
+					{
+						"buffer_size": 3033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3033,
+								3033
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "products_example_commands.txt",
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "twitter-example-commands.txt",
+					"settings":
+					{
+						"buffer_size": 1908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1221,
+								1221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -169,7 +353,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -219,6 +403,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 265.0,
 	"status_bar_visible": true
 }

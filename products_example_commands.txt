@@ -1,0 +1,34 @@
+1. Products in department 'Networking':
+
+GET products_multi_tagged/product/_search?q=department_name:networking
+
+2. Products in both department 'books' and department 'networking'
+
+POST products_multi_tagged/_search
+{
+ "query": {"match_all": {}},
+ "facets":{
+ "department_name": {"terms": {"field": "department_name"}}}
+}
+
+3. Get products that have department name Housewares and/or Kitchen
+POST products_multi_tagged/_search?pretty=true
+{
+  "query": {
+    "filtered": {
+      "filter": {
+        "bool": {
+          "should": [
+            {"term": {"department_name": "Housewares"}},
+            {"term": {"department_name": "Kitchen"}}
+          ] 
+        }
+      }
+    }
+  },
+  "facets": {
+    "department_name": {
+      "terms": {"field": "department_name"}
+    }
+  }
+}
