@@ -1,0 +1,95 @@
+
+1. post tweet
+POST twitter/tweet/1?_ve
+{
+    "user" : "idurkan",
+    "post_date" : "2013-09-08T13:00:00",
+    "message" : "trying out Elastic Search"
+}
+
+2. post tweet 2
+POST twitter/tweet/2
+{
+    "user" : "idurkan",
+    "post_date" : "2013-09-08T13:00:30",
+    "message" : "another message from Ian"
+}
+
+3. post tweet 3
+POST twitter/tweet/3
+{
+    "user" : "idurkan",
+    "post_date" : "2013-09-08T13:00:30",
+    "message" : "more words from our sponsor"
+}
+
+4. post user 2 tweet 1
+POST twitter/tweet/4
+{
+    "user" : "someoneelse",
+    "post_date" : "2013-09-09T13:00:30",
+    "message" : "search me out, ye who dare"
+}
+
+5. post user 2 tweet 2
+POST twitter/tweet/5
+{
+    "user" : "someoneelse",
+    "post_date" : "2013-09-09T13:01:00",
+    "message" : "just counting out time."
+}
+
+6. post user 3 tweet 1
+POST twitter/tweet/6
+{
+    "user" : "another",
+    "post_date" : "2013-09-09T13:03:33",
+    "message" : "keep on searching, you'll never find it."
+}
+
+7. query for messages by idurkan
+GET twitter/tweet/_search?q=user:idurkan
+
+8. query for messages by someonelese
+GET twitter/tweet/_search?q=user:someoneelse
+
+9. messages with 'time'
+GET twitter/tweet/_search?q=message:search
+
+10. message from idurkan about 'sponsors'
+POST twitter/tweet/_search
+{
+   "query" : {
+      "bool" : {
+         "must" : [
+            {
+               "term" : {
+                  "user" : "idurkan"
+               }
+            },
+            {
+               "term" : {
+                  "message" : "sponsor"
+               }
+            }
+         ]
+      }
+   },
+   "from" : 0,
+   "size" : 20
+}
+
+11. filter queries on timestamp
+{
+    "constant_score" : {
+        "filter" : {
+            "range" : {
+                "post_date" : { 
+                    "from" : "2013-09-09T13:03:33", 
+                    "include_lower" : true, 
+                    "include_upper" : false
+                }
+            }
+        }
+    }
+}
