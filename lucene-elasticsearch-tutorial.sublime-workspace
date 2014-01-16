@@ -8,22 +8,6 @@
 	"buffers":
 	[
 		{
-			"file": "/home/idurkan/bin/admin_test_neo4j_db.sh",
-			"settings":
-			{
-				"buffer_size": 426,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/idurkan/.bash_aliases",
-			"settings":
-			{
-				"buffer_size": 2210,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "datasets/datasets/products_multi_tagged.pretty",
 			"settings":
 			{
@@ -40,10 +24,43 @@
 			}
 		},
 		{
+			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/movie_db.eloader",
+			"settings":
+			{
+				"buffer_size": 1624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products.eloader",
+			"settings":
+			{
+				"buffer_size": 2154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products_mapping.json",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Windows",
+				"name": "{\"mappings\":{\"product\":{\"properties\":{\"department_"
+			}
+		},
+		{
+			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/usernames.eloader",
+			"settings":
+			{
+				"buffer_size": 1345,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "twitter-example-commands.txt",
 			"settings":
 			{
-				"buffer_size": 1908,
+				"buffer_size": 1904,
 				"line_ending": "Unix"
 			}
 		}
@@ -51,15 +68,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -72,10 +89,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/darwin-origin.eloader",
+		"/home/idurkan/bin/admin_test_neo4j_db.sh",
+		"/home/idurkan/.bash_aliases",
 		"/home/idurkan/repos/lucene-elasticsearch-tutorial/datasets/datasets/products_multi_tagged.eloader",
 		"/home/idurkan/bin/big_file.rb",
 		"/home/idurkan/repos/lucene-elasticsearch-tutorial/datasets/.gitignore",
-		"/home/idurkan/.bash_aliases",
 		"/home/idurkan/bin/deft_purgation.sh",
 		"/home/idurkan/repos/deft/ncc-on-bbn/deft/nextcentury/deft-widgets/target/CodeNarc.xml",
 		"/home/idurkan/repos/deft/ncc-on-bbn/deft/titanic-deleted-files.txt",
@@ -207,63 +226,11 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/idurkan/bin/admin_test_neo4j_db.sh",
-					"settings":
-					{
-						"buffer_size": 426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								426,
-								426
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/idurkan/.bash_aliases",
-					"settings":
-					{
-						"buffer_size": 2210,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								769,
-								769
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "datasets/datasets/products_multi_tagged.pretty",
 					"settings":
 					{
@@ -274,8 +241,91 @@
 						"selection":
 						[
 							[
-								3033,
-								3033
+								807,
+								807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "products_example_commands.txt",
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/movie_db.eloader",
+					"settings":
+					{
+						"buffer_size": 1624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1624,
+								1624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products.eloader",
+					"settings":
+					{
+						"buffer_size": 2154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								411
 							]
 						],
 						"settings":
@@ -289,26 +339,51 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "products_example_commands.txt",
+					"buffer": 4,
+					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products_mapping.json",
 					"settings":
 					{
-						"buffer_size": 776,
+						"buffer_size": 376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								217,
-								217
+								376,
+								376
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "{\"mappings\":{\"product\":{\"properties\":{\"department_",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 1312.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/usernames.eloader",
+					"settings":
+					{
+						"buffer_size": 1345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1345,
+								1345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -317,19 +392,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "twitter-example-commands.txt",
 					"settings":
 					{
-						"buffer_size": 1908,
+						"buffer_size": 1904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1221,
-								1221
+								1587,
+								1587
 							]
 						],
 						"settings":
@@ -339,7 +414,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

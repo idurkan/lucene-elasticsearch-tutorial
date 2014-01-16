@@ -1,6 +1,6 @@
 
 1. post tweet
-POST twitter/tweet/1?_ve
+POST twitter/tweet/1
 {
     "user" : "idurkan",
     "post_date" : "2013-09-08T13:00:00",

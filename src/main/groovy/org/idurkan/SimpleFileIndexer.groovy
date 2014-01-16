@@ -20,6 +20,7 @@ class SimpleFileIndexer {
         println("Indexed ${filesIndexed} files.")
     }
 
+    // setup IndexWriter.
     private int buildIndex(File indexDir, File dataDir) {
         def indexWriter = new IndexWriter(
                 FSDirectory.open(indexDir),
@@ -34,6 +35,7 @@ class SimpleFileIndexer {
         return numIndexed
     }
 
+    // recurse through the directory structure under dataDir and index every file within.
     private void indexDirectory(IndexWriter indexWriter, File dataDir) {
         def fileList = []
         dataDir.eachFileRecurse(FileType.FILES) { File file ->
@@ -45,6 +47,7 @@ class SimpleFileIndexer {
         }
     }
 
+    // add a single file for indexing.
     private void indexFileWithWriter(IndexWriter indexWriter, File file) {
         if (file.isHidden() || file.isDirectory() || !file.canRead() || !file.exists()) {
             return

@@ -1,34 +1,73 @@
-1. Products in department 'Networking':
+1. Get cluster status info
 
-GET products_multi_tagged/product/_search?q=department_name:networking
+GET
+_status
 
-2. Products in both department 'books' and department 'networking'
+2. A darn simple products query - show everything!
 
-POST products_multi_tagged/_search
+POST products/product/_search
 {
- "query": {"match_all": {}},
- "facets":{
- "department_name": {"terms": {"field": "department_name"}}}
+   "query": {
+      "match_all": {}
+   }
 }
 
-3. Get products that have department name Housewares and/or Kitchen
-POST products_multi_tagged/_search?pretty=true
+3. Add another product!
+
+PUT products/product/99
 {
-  "query": {
-    "filtered": {
-      "filter": {
-        "bool": {
-          "should": [
-            {"term": {"department_name": "Housewares"}},
-            {"term": {"department_name": "Kitchen"}}
-          ] 
-        }
+  "department_name": "Cameras",
+  "department_name_analyzed": "Cameras",
+  "department_id": 3,
+  "name": "Nikon D4 16.2 MP CMOS FX Digital SLR",
+  "description": "This new flagship D-SLR offers speed and accuracy with a 16.2 MP FX-format CMOS sensor, 10/11 fps continuous shooting, a 91,000-Pixel RGB sensor and Advanced SRS, improved 51 point AF System, ISO expanded to 204,800 and 1080p video at 30p with stereo sound.",
+  "price": 609999
+}
+
+3.5 explicit GET
+
+GET products/product/99
+
+4. Look again - the D4 should be listed now.
+
+POST products/product/_search
+{
+   "query": {
+      "match_all": {}
+   }
+}
+
+5. OK, scrolling through all the products is silly - this thing is for searching right?  Search for everything in the Cameras products category
+
+POST products/product/_search
+{
+   "query": {
+      "match": {
+          "department_name_analyzed": "camera"
       }
-    }
-  },
-  "facets": {
-    "department_name": {
-      "terms": {"field": "department_name"}
-    }
-  }
+   }
+}
+
+6. What happens when searching against the non-analyzed department name field?
+
+POST products/product/_search
+{
+   "query": {
+      "match": {
+          "department_name": "camera"
+      }
+   }
+}
+
+7. A query with multiple criteria - 'bool', not 'match':
+POST products/product/_search
+{
+   "query": {
+      "bool": {
+        "must": [
+          { "term" : {"department_name" : "Books"} },
+          { "term" : {"description" : "religion"} }
+        ]
+      }
+   }
 }

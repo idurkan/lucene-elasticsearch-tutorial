@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "product": {
+      "properties": {
+        "department_id": {
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "department_name": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "department_name_analyzed": {
+          "type": "string",
+          "analyzer": "snowball"
+        },
+        "name": {
+          "type": "string",
+          "analyzer": "snowball"
+        },
+        "description": {
+          "type": "string",
+          "analyzer": "snowball"
+        },
+        "price": {
+          "type": "integer",
+          "index": "not_analyzed"
+        }
+      }
+    }
+  }
+}
