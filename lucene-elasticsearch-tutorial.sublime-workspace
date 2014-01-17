@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "datasets/datasets/products_multi_tagged.pretty",
+			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products.eloader",
 			"settings":
 			{
-				"buffer_size": 3033,
+				"buffer_size": 3251,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,48 +19,7 @@
 			"file": "products_example_commands.txt",
 			"settings":
 			{
-				"buffer_size": 776,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/movie_db.eloader",
-			"settings":
-			{
-				"buffer_size": 1624,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products.eloader",
-			"settings":
-			{
-				"buffer_size": 2154,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products_mapping.json",
-			"settings":
-			{
-				"buffer_size": 376,
-				"line_ending": "Windows",
-				"name": "{\"mappings\":{\"product\":{\"properties\":{\"department_"
-			}
-		},
-		{
-			"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/usernames.eloader",
-			"settings":
-			{
-				"buffer_size": 1345,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "twitter-example-commands.txt",
-			"settings":
-			{
-				"buffer_size": 1904,
+				"buffer_size": 1565,
 				"line_ending": "Unix"
 			}
 		}
@@ -68,11 +27,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 392.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -89,6 +52,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/idurkan/projects/lucene-elasticsearch-tutorial/datasets/datasets/products_multi_tagged.pretty",
+		"/C/Users/idurkan/projects/lucene-elasticsearch-tutorial/twitter-example-commands.txt",
+		"/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/movie_db.eloader",
+		"/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/README.md",
+		"/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/usernames.eloader",
 		"/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/darwin-origin.eloader",
 		"/home/idurkan/bin/admin_test_neo4j_db.sh",
 		"/home/idurkan/.bash_aliases",
@@ -226,33 +194,31 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "datasets/datasets/products_multi_tagged.pretty",
+					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products.eloader",
 					"settings":
 					{
-						"buffer_size": 3033,
+						"buffer_size": 3251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								807,
-								807
+								703,
+								703
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -262,15 +228,15 @@
 					"file": "products_example_commands.txt",
 					"settings":
 					{
-						"buffer_size": 776,
+						"buffer_size": 1565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								1099,
+								974
 							]
 						],
 						"settings":
@@ -280,141 +246,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/movie_db.eloader",
-					"settings":
-					{
-						"buffer_size": 1624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1624,
-								1624
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products.eloader",
-					"settings":
-					{
-						"buffer_size": 2154,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								411
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/products_mapping.json",
-					"settings":
-					{
-						"buffer_size": 376,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								376,
-								376
-							]
-						],
-						"settings":
-						{
-							"auto_name": "{\"mappings\":{\"product\":{\"properties\":{\"department_",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 1312.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/idurkan/Dropbox/business/My Presentations/ElasticSearch/ee-datasets-master/datasets/usernames.eloader",
-					"settings":
-					{
-						"buffer_size": 1345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1345,
-								1345
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "twitter-example-commands.txt",
-					"settings":
-					{
-						"buffer_size": 1904,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1587,
-								1587
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 849.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
